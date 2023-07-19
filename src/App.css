@@ -1,0 +1,324 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 1100px;
+  margin-top:20px;
+}
+.text-souligner{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(86, 86, 228);
+}
+
+.event-card{
+  margin-top:-30px;
+  margin: 10px;
+  width: 1920px;
+  height: 1000px;
+  background-image: linear-gradient(rgba(209, 29, 29, 0.939), rgba(174, 163, 163, 0.7)),url("../public/asset/jj.jpg");
+  background-size: cover;
+  
+}
+.titre_niveau1{
+  /* margin-top:900px; */
+  
+}
+
+ h1{
+ text-align: center; 
+ font-size: 60px; 
+ color: white;
+ padding-top:300px;
+ 
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  margin-top:30px;
+
+}
+
+.event_card_button{
+  margin-left: 800px;  
+}
+
+.event-card__btn1{
+ background-color:rgba(8, 193, 184, 1);
+ width: 200px;
+ height: 50px;
+ color: white;
+ margin-top: 200px;
+ font-size: 20px;
+ 
+}
+.event-card__btn2{
+  background-color:  rgba(0, 0, 0, 0.3);
+  width: 200px;
+  height: 50px;
+  margin-left:20px;
+  color: white;
+  font-size: 20px;
+   
+}
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.titre_niveau3{
+  margin-top: 240px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  }
+
+.titre_quatre{
+   font-size: 40px;
+   margin-left: -90px;
+}
+.cadre{
+  width: 400px;
+  height: 600px;
+  margin: 40px;
+}
+ 
+
+.about p{
+  margin: 40px;
+  margin-right: 200px;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.sous-section{
+  margin-top: -100px;
+}
+.paragraphe{
+  width: 900px;
+  
+}
+.bouton{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(205, 151, 81);
+  border-radius: 2px solid black;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+.titre_form{
+font-size: 40px;
+margin: 80px;
+text-align: center;
+}
+label{
+  width: 100px;
+  height: 50px;
+  margin: 50px;
+   
+}
+input{
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+}
+textarea{
+  margin: 10px;
+}
+.form{
+  gap: 40px;
+ margin-left: 600px;
+ 
+}
+.soumettre{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(60, 102, 69);
+  margin-left: 600px;
+  margin-top: 20px;
+  color: white;
+}
+.imagedefont{
+  width: 640px;
+  height: 550px;
+}
+
+.contenu_centrer{
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+  margin: 20px;
+ 
+}
+.texte-niveau-inf{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top:30px;
+  margin-left:40px;
+  font-size: 40px;
+  height: 440px;
+  gap: 10px;
+}
+.titre-span{
+  margin-top: 180px;
+}
+.contenair{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px;
+}
+
+.ddd{
+  width:630px;
+  height:300px;
+  display: flex;
+  flex-direction:row;
+  
+}
+
+
+.telephone{
+  width: 1400px;
+  height: 700px;
+  margin-top: 30px;
+  
+  
+}
+.shop{
+  display: flex;
+  flex-direction: row;
+  
+}
+.femme-sacs{
+  width: 400px;
+  height: 830px;
+  margin-left: 50px;
+  margin-bottom:-600px;
+}
+.img_gratuites{
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+.img_g{
+  width: 630px;
+  height: 400px;
+  margin-top: 30px;
+}
+.categori{
+  display: flex;
+  flex-direction:row; 
+  margin: 20px;
+  
+}
+
+.categori p{
+ font-size: 20px;
+ justify-content: center;
+ width: 1400px;
+ margin-top: 40px;
+ margin-left: 200px;
+}
+
+.titre_bas{
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  
+}
+.titre_niveau6{
+  font-size: 14px;
+  margin-top: 10px;
+}
+ .lesdeuxtitres{
+  gap: 60px;
+  margin:20px;
+  margin-left: 20px;
+
+ } 
+ .event-card__btn3{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(59, 139, 210);
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  
+ }
+ .Evenement{
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px solid black;
+ }
+ .portfolio{
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 60Px;
+}
+ .titre_evenement{
+   display: flex;
+  flex-direction: row;
+  font-size: 20px; 
+ }
+  
+ .p{ 
+  text-align: center;
+  margin-top: 80px;
+  font-size: 30px;
+  color: rgb(217, 69, 69);
+ }
+ .titre6{
+  font-size: 20px;
+  margin-left:140px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+ .p_titre{
+font-size: 14px;
+margin-top: 10px;
+padding-left: 60px;
+padding-right: 60px;
+
+  
+ }
+ .event-card__btn4{
+   width : 240px;
+   height: 160px;
+   border-radius: 80px;
+  font-size: 30px;
+  background-color: rgb(35, 28, 18); 
+  margin-left: 1600px;
+  margin-bottom: 600px;
+  margin-top: 30px;
+ }
+ .BGG{
+  background-color: rgb(247, 235, 223);
+  margin-left: 80px;
+  border-radius: 60px;
+  height: 500px;
+
+ } 
+ .formloc{
+  text-align: center;
+ }
+ .location{
+  width: 400px;
+  align-items: center;
+ }
+   
+ 
+
+  
+    
